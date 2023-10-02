@@ -1,0 +1,94 @@
+*,*,HeartDisease,No,23550
+*,*,HeartDisease,Yes,8695
+AgeCategory,18-24,HeartDisease,No,910
+AgeCategory,18-24,HeartDisease,Yes,78
+AgeCategory,25-29,HeartDisease,No,972
+AgeCategory,25-29,HeartDisease,Yes,86
+AgeCategory,30-34,HeartDisease,No,1174
+AgeCategory,30-34,HeartDisease,Yes,131
+AgeCategory,35-39,HeartDisease,No,1382
+AgeCategory,35-39,HeartDisease,Yes,172
+AgeCategory,40-44,HeartDisease,No,1574
+AgeCategory,40-44,HeartDisease,Yes,274
+AgeCategory,45-49,HeartDisease,No,1712
+AgeCategory,45-49,HeartDisease,Yes,378
+AgeCategory,50-54,HeartDisease,No,2000
+AgeCategory,50-54,HeartDisease,Yes,643
+AgeCategory,55-59,HeartDisease,No,2310
+AgeCategory,55-59,HeartDisease,Yes,860
+AgeCategory,60-64,HeartDisease,No,2534
+AgeCategory,60-64,HeartDisease,Yes,1108
+AgeCategory,65-69,HeartDisease,No,2530
+AgeCategory,65-69,HeartDisease,Yes,1175
+AgeCategory,70-74,HeartDisease,No,2385
+AgeCategory,70-74,HeartDisease,Yes,1262
+AgeCategory,75-79,HeartDisease,No,1997
+AgeCategory,75-79,HeartDisease,Yes,1161
+AgeCategory,80 or older,HeartDisease,No,2070
+AgeCategory,80 or older,HeartDisease,Yes,1367
+AlcoholDrinking,No,HeartDisease,No,19772
+AlcoholDrinking,No,HeartDisease,Yes,8012
+AlcoholDrinking,Yes,HeartDisease,No,3778
+AlcoholDrinking,Yes,HeartDisease,Yes,683
+Asthma,No,HeartDisease,No,16052
+Asthma,No,HeartDisease,Yes,6095
+Asthma,Yes,HeartDisease,No,7498
+Asthma,Yes,HeartDisease,Yes,2600
+Diabetic,"No borderline diabetes",HeartDisease,No,2398
+Diabetic,"No borderline diabetes",HeartDisease,Yes,507
+Diabetic,No,HeartDisease,No,13456
+Diabetic,No,HeartDisease,Yes,4663
+Diabetic,Yes (during pregnancy),HeartDisease,No,855
+Diabetic,Yes (during pregnancy),HeartDisease,Yes,80
+Diabetic,Yes,HeartDisease,No,6841
+Diabetic,Yes,HeartDisease,Yes,3445
+DiffWalking,No,HeartDisease,No,15027
+DiffWalking,No,HeartDisease,Yes,4645
+DiffWalking,Yes,HeartDisease,No,8523
+DiffWalking,Yes,HeartDisease,Yes,4050
+GenHealth,Excellent,HeartDisease,No,3092
+GenHealth,Excellent,HeartDisease,Yes,563
+GenHealth,Fair,HeartDisease,No,5587
+GenHealth,Fair,HeartDisease,Yes,2590
+GenHealth,Good,HeartDisease,No,6845
+GenHealth,Good,HeartDisease,Yes,2441
+GenHealth,Poor,HeartDisease,No,2860
+GenHealth,Poor,HeartDisease,Yes,1796
+GenHealth,Very good,HeartDisease,No,5166
+GenHealth,Very good,HeartDisease,Yes,1305
+KidneyDisease,No,HeartDisease,No,19979
+KidneyDisease,No,HeartDisease,Yes,6831
+KidneyDisease,Yes,HeartDisease,No,3571
+KidneyDisease,Yes,HeartDisease,Yes,1864
+PhysicalActivity,No,HeartDisease,No,9792
+PhysicalActivity,No,HeartDisease,Yes,3798
+PhysicalActivity,Yes,HeartDisease,No,13758
+PhysicalActivity,Yes,HeartDisease,Yes,4897
+Race,American Indian/Alaskan Native,HeartDisease,No,1578
+Race,American Indian/Alaskan Native,HeartDisease,Yes,384
+Race,Asian,HeartDisease,No,1396
+Race,Asian,HeartDisease,Yes,184
+Race,Black,HeartDisease,No,3585
+Race,Black,HeartDisease,Yes,1048
+Race,Hispanic,HeartDisease,No,3563
+Race,Hispanic,HeartDisease,Yes,938
+Race,Other,HeartDisease,No,2390
+Race,Other,HeartDisease,Yes,611
+Race,White,HeartDisease,No,11038
+Race,White,HeartDisease,Yes,5530
+Sex,Female,HeartDisease,No,13061
+Sex,Female,HeartDisease,Yes,4157
+Sex,Male,HeartDisease,No,10489
+Sex,Male,HeartDisease,Yes,4538
+SkinCancer,No,HeartDisease,No,19702
+SkinCancer,No,HeartDisease,Yes,6924
+SkinCancer,Yes,HeartDisease,No,3848
+SkinCancer,Yes,HeartDisease,Yes,1771
+Smoking,No,HeartDisease,No,11530
+Smoking,No,HeartDisease,Yes,3772
+Smoking,Yes,HeartDisease,No,12020
+Smoking,Yes,HeartDisease,Yes,4923
+Stroke,No,HeartDisease,No,20179
+Stroke,No,HeartDisease,Yes,6326
+Stroke,Yes,HeartDisease,No,3371
+Stroke,Yes,HeartDisease,Yes,2369

@@ -1,0 +1,94 @@
+*,*,HeartDisease,No,0.9144468536449812
+*,*,HeartDisease,Yes,0.08555314635501875
+AgeCategory,18-24,HeartDisease,No,0.07199445307584648
+AgeCategory,18-24,HeartDisease,Yes,0.004529026945422938
+AgeCategory,25-29,HeartDisease,No,0.05787034064791156
+AgeCategory,25-29,HeartDisease,Yes,0.005489729630815682
+AgeCategory,30-34,HeartDisease,No,0.0631091023484547
+AgeCategory,30-34,HeartDisease,Yes,0.008280342193146988
+AgeCategory,35-39,HeartDisease,No,0.06912683024956878
+AgeCategory,35-39,HeartDisease,Yes,0.010613477286243652
+AgeCategory,40-44,HeartDisease,No,0.06961903416751197
+AgeCategory,40-44,HeartDisease,Yes,0.018116107781691752
+AgeCategory,45-49,HeartDisease,No,0.07215709437047119
+AgeCategory,45-49,HeartDisease,Yes,0.027357152660231483
+AgeCategory,50-54,HeartDisease,No,0.08235213552299876
+AgeCategory,50-54,HeartDisease,Yes,0.04913308019580036
+AgeCategory,55-59,HeartDisease,No,0.0944089914955723
+AgeCategory,55-59,HeartDisease,Yes,0.07868612470835812
+AgeCategory,60-64,HeartDisease,No,0.10335854273400016
+AgeCategory,60-64,HeartDisease,Yes,0.12228372752641932
+AgeCategory,65-69,HeartDisease,No,0.1027892982028137
+AgeCategory,65-69,HeartDisease,Yes,0.14986961892126813
+AgeCategory,70-74,HeartDisease,No,0.08961963337228164
+AgeCategory,70-74,HeartDisease,Yes,0.17599158241456608
+AgeCategory,75-79,HeartDisease,No,0.05962087458216168
+AgeCategory,75-79,HeartDisease,Yes,0.14950363694588042
+AgeCategory,80 or older,HeartDisease,No,0.06397366923040708
+AgeCategory,80 or older,HeartDisease,Yes,0.2001463927901551
+AlcoholDrinking,No,HeartDisease,No,0.9290669953732832
+AlcoholDrinking,No,HeartDisease,Yes,0.9580493160711835
+AlcoholDrinking,Yes,HeartDisease,No,0.07093300462671683
+AlcoholDrinking,Yes,HeartDisease,Yes,0.041950683928816505
+Asthma,No,HeartDisease,No,0.8701865666850708
+Asthma,No,HeartDisease,Yes,0.8171462555469143
+Asthma,Yes,HeartDisease,No,0.1298134333149292
+Asthma,Yes,HeartDisease,Yes,0.1828537444530857
+Diabetic,"No borderline diabetes",HeartDisease,No,0.02051420329305821
+Diabetic,"No borderline diabetes",HeartDisease,Yes,0.029095567043323115
+Diabetic,No,HeartDisease,No,0.8620716220901118
+Diabetic,No,HeartDisease,Yes,0.642023880323894
+Diabetic,Yes (during pregnancy),HeartDisease,No,0.008350346468757892
+Diabetic,Yes (during pregnancy),HeartDisease,Yes,0.0037970629946475136
+Diabetic,Yes,HeartDisease,No,0.10906382814807206
+Diabetic,Yes,HeartDisease,Yes,0.3250834896381353
+DiffWalking,No,HeartDisease,No,0.8829881485856628
+DiffWalking,No,HeartDisease,Yes,0.6336520426369001
+DiffWalking,Yes,HeartDisease,No,0.11701185141433726
+DiffWalking,Yes,HeartDisease,Yes,0.3663479573630999
+GenHealth,Excellent,HeartDisease,No,0.2237002606540748
+GenHealth,Excellent,HeartDisease,Yes,0.055309026030468
+GenHealth,Fair,HeartDisease,No,0.093608625124656
+GenHealth,Fair,HeartDisease,Yes,0.2570108422160209
+GenHealth,Good,HeartDisease,No,0.28541835193008136
+GenHealth,Good,HeartDisease,Yes,0.3486435793037193
+GenHealth,Poor,HeartDisease,No,0.02557748359676943
+GenHealth,Poor,HeartDisease,Yes,0.141772267715815
+GenHealth,Very good,HeartDisease,No,0.37169527869441843
+GenHealth,Very good,HeartDisease,Yes,0.19726428473397686
+KidneyDisease,No,HeartDisease,No,0.9716875746330941
+KidneyDisease,No,HeartDisease,Yes,0.8725467770712293
+KidneyDisease,Yes,HeartDisease,No,0.02831242536690592
+KidneyDisease,Yes,HeartDisease,Yes,0.12745322292877076
+PhysicalActivity,No,HeartDisease,No,0.21139516270549513
+PhysicalActivity,No,HeartDisease,Yes,0.3591198133491926
+PhysicalActivity,Yes,HeartDisease,No,0.7886048372945048
+PhysicalActivity,Yes,HeartDisease,Yes,0.6408801866508075
+Race,American Indian/Alaskan Native,HeartDisease,No,0.015930286805082967
+Race,American Indian/Alaskan Native,HeartDisease,Yes,0.01944279244247221
+Race,Asian,HeartDisease,No,0.026750212931694935
+Race,Asian,HeartDisease,Yes,0.009835765588544765
+Race,Black,HeartDisease,No,0.07271349879945044
+Race,Black,HeartDisease,Yes,0.06249142229745185
+Race,Hispanic,HeartDisease,No,0.08953403269090023
+Race,Hispanic,HeartDisease,Yes,0.05279289994967748
+Race,Other,HeartDisease,No,0.03433443330208909
+Race,Other,HeartDisease,Yes,0.032023422846424815
+Race,White,HeartDisease,No,0.7607375354707824
+Race,White,HeartDisease,Yes,0.8234136968754289
+Sex,Female,HeartDisease,No,0.5353851816660461
+Sex,Female,HeartDisease,Yes,0.4088018665080745
+Sex,Male,HeartDisease,No,0.46461481833395396
+Sex,Male,HeartDisease,Yes,0.5911981334919255
+SkinCancer,No,HeartDisease,No,0.9149856832860389
+SkinCancer,No,HeartDisease,Yes,0.8169632645592204
+SkinCancer,Yes,HeartDisease,No,0.08501431671396105
+SkinCancer,Yes,HeartDisease,Yes,0.18303673544077953
+Smoking,No,HeartDisease,No,0.6043450905869211
+Smoking,No,HeartDisease,Yes,0.4161672537627522
+Smoking,Yes,HeartDisease,No,0.3956549094130789
+Smoking,Yes,HeartDisease,Yes,0.5838327462372478
+Stroke,No,HeartDisease,No,0.9739003522468039
+Stroke,No,HeartDisease,Yes,0.8392424173109474
+Stroke,Yes,HeartDisease,No,0.026099647753196117
+Stroke,Yes,HeartDisease,Yes,0.16075758268905257
