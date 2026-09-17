@@ -10,6 +10,8 @@ The model is trained on real-world health datasets to provide accurate probabili
 
 This project showcases the power of probabilistic machine learning in making health predictions accessible to everyone.
 
+**Empowering individuals with data-driven health insights through accessible machine learning technology.**
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
