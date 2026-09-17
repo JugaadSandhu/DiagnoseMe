@@ -6,6 +6,8 @@
 
 Built with Python, this project demonstrates practical applications of machine learning in healthcare diagnostics.
 
+The model is trained on real-world health datasets to provide accurate probability-based predictions.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
