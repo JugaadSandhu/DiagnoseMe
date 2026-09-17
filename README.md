@@ -8,6 +8,8 @@ Built with Python, this project demonstrates practical applications of machine l
 
 The model is trained on real-world health datasets to provide accurate probability-based predictions.
 
+This project showcases the power of probabilistic machine learning in making health predictions accessible to everyone.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
