@@ -4,6 +4,8 @@
 
 **DiagnoseMe** is a machine learning model designed to assist in the diagnosis of heart complications and diabetes. This tool uses a Naive Bayes classification algorithm to predict the likelihood of a user having these medical conditions based on a set of specific questions. By providing answers to these questions, users can receive preliminary insights into their health status and seek appropriate medical advice if necessary.
 
+Built with Python, this project demonstrates practical applications of machine learning in healthcare diagnostics.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
