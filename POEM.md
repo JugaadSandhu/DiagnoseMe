@@ -35,6 +35,9 @@ So here's to code that serves the good,
 That does for health what software should:
 Empower, inform, and gently say,
 "Take care of yourself—starting today."
+
+With every prediction, hope takes flight,
+As data guides us toward the light.
 ```
 
 ---
