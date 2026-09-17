@@ -57,3 +57,6 @@ If you encounter any issues or have suggestions for improvements, please feel fr
 GitHub Repository: [DiagnoseMe](https://github.com/your-username/diagnoseme)
 
 Thank you for using DiagnoseMe! We hope that it can help raise awareness of potential health issues and encourage users to seek appropriate medical attention when needed.
+
+---
+*This project is for educational purposes only and should not be used as a medical diagnostic tool.*
