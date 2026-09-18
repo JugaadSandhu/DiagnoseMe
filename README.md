@@ -14,6 +14,8 @@ This project showcases the power of probabilistic machine learning in making hea
 
 This project is actively maintained and welcomes community contributions.
 
+DiagnoseMe leverages the simplicity and effectiveness of Naive Bayes to deliver fast and interpretable predictions.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
