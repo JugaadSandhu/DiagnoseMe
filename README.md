@@ -88,5 +88,7 @@ Every contribution to this project helps advance the future of accessible health
 
 Your feedback and suggestions are invaluable in helping us refine and enhance this diagnostic tool.
 
+We believe in the power of open-source collaboration to drive innovation in healthcare technology.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
