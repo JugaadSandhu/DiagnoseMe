@@ -76,5 +76,7 @@ Remember: Your health is your wealth, and early detection can make all the diffe
 
 We are committed to continuously improving the accuracy and reliability of our predictions through ongoing research and development.
 
+Together, we can build a more informed and healthier community through the power of machine learning.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
