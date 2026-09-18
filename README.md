@@ -86,5 +86,7 @@ Join us in our mission to bridge the gap between advanced technology and everyda
 
 Every contribution to this project helps advance the future of accessible healthcare technology.
 
+Your feedback and suggestions are invaluable in helping us refine and enhance this diagnostic tool.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
