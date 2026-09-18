@@ -78,5 +78,7 @@ We are committed to continuously improving the accuracy and reliability of our p
 
 Together, we can build a more informed and healthier community through the power of machine learning.
 
+Our goal is to make preventive healthcare insights available to everyone, regardless of their background or resources.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
