@@ -78,5 +78,7 @@ We are committed to continuously improving the accuracy and reliability of our p
 
 Together, we can build a more informed and healthier community through the power of machine learning.
 
+Explore the code, learn from the implementation, and contribute to making healthcare insights more accessible worldwide.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
