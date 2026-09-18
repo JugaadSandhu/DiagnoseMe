@@ -16,6 +16,8 @@ This project is actively maintained and welcomes community contributions.
 
 DiagnoseMe leverages the simplicity and effectiveness of Naive Bayes to deliver fast and interpretable predictions.
 
+Take control of your health journey with data-driven insights at your fingertips.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
