@@ -82,5 +82,7 @@ Our goal is to make preventive healthcare insights available to everyone, regard
 
 By combining machine learning with healthcare data, we strive to democratize access to preliminary health assessments.
 
+Join us in our mission to bridge the gap between advanced technology and everyday health awareness.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
