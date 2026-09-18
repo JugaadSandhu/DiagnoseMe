@@ -80,5 +80,7 @@ Together, we can build a more informed and healthier community through the power
 
 Our goal is to make preventive healthcare insights available to everyone, regardless of their background or resources.
 
+By combining machine learning with healthcare data, we strive to democratize access to preliminary health assessments.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
