@@ -74,5 +74,7 @@ This project is open source and available for educational and research purposes.
 
 Remember: Your health is your wealth, and early detection can make all the difference.
 
+We are committed to continuously improving the accuracy and reliability of our predictions through ongoing research and development.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
