@@ -12,6 +12,8 @@ This project showcases the power of probabilistic machine learning in making hea
 
 **Empowering individuals with data-driven health insights through accessible machine learning technology.**
 
+This project is actively maintained and welcomes community contributions.
+
 ## Getting Started
 
 To use DiagnoseMe, follow these simple steps:
