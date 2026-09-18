@@ -90,5 +90,7 @@ Your feedback and suggestions are invaluable in helping us refine and enhance th
 
 We believe in the power of open-source collaboration to drive innovation in healthcare technology.
 
+Stay informed, stay healthy, and let technology be your guide to better wellness.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
