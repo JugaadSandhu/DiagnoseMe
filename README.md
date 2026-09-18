@@ -84,5 +84,7 @@ By combining machine learning with healthcare data, we strive to democratize acc
 
 Join us in our mission to bridge the gap between advanced technology and everyday health awareness.
 
+Every contribution to this project helps advance the future of accessible healthcare technology.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
