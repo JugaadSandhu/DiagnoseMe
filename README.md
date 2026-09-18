@@ -72,5 +72,7 @@ Thank you for using DiagnoseMe! We hope that it can help raise awareness of pote
 
 This project is open source and available for educational and research purposes.
 
+Remember: Your health is your wealth, and early detection can make all the difference.
+
 ---
 *This project is for educational purposes only and should not be used as a medical diagnostic tool.*
