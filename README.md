@@ -1,96 +1,184 @@
-# DiagnoseMe: 
+# DiagnoseMe
 
-## Introduction
+A machine learning project that uses Naive Bayes classification to predict the likelihood of heart disease and diabetes based on health-related questionnaires.
 
-**DiagnoseMe** is a machine learning model designed to assist in the diagnosis of heart complications and diabetes. This tool uses a Naive Bayes classification algorithm to predict the likelihood of a user having these medical conditions based on a set of specific questions. By providing answers to these questions, users can receive preliminary insights into their health status and seek appropriate medical advice if necessary.
+## Overview
 
-Built with Python, this project demonstrates practical applications of machine learning in healthcare diagnostics.
+**DiagnoseMe** is an educational machine learning tool that demonstrates the application of Naive Bayes classification in healthcare diagnostics. The system analyzes user responses to health-related questions and provides probability-based predictions for heart disease and diabetes.
 
-The model is trained on real-world health datasets to provide accurate probability-based predictions.
+**⚠️ Important:** This project is for educational purposes only and should not be used as a medical diagnostic tool. Always consult qualified healthcare professionals for medical advice.
 
-This project showcases the power of probabilistic machine learning in making health predictions accessible to everyone.
+## Features
 
-**Empowering individuals with data-driven health insights through accessible machine learning technology.**
+- **Dual Diagnosis Models**: Separate trained models for heart disease and diabetes prediction
+- **Interactive CLI**: User-friendly command-line interface for data collection
+- **Naive Bayes Classification**: Probabilistic machine learning approach with interpretable results
+- **Training & Testing Tools**: Scripts to split data and retrain models
+- **Probability Reporting**: Detailed probability outputs for each prediction
 
-This project is actively maintained and welcomes community contributions.
+## Prerequisites
 
-DiagnoseMe leverages the simplicity and effectiveness of Naive Bayes to deliver fast and interpretable predictions.
+- Python 3.x
+- No external dependencies required (uses only Python standard library)
 
-Take control of your health journey with data-driven insights at your fingertips.
+## Project Structure
 
-## Getting Started
+```
+DiagnoseMe/
+├── naiveBayes.py          # Main classification script
+├── splitData.py           # Data splitting utility
+├── runAll.bash            # Batch testing script
+├── diabetes/              # Diabetes model data
+│   ├── train.csv          # Training dataset
+│   ├── test.csv           # Test dataset
+│   ├── counts.csv         # Feature counts
+│   └── probabilities.csv  # Computed probabilities
+├── heart/                 # Heart disease model data
+│   ├── train.csv          # Training dataset
+│   ├── test.csv           # Test dataset
+│   ├── counts.csv         # Feature counts
+│   └── probabilities.csv  # Computed probabilities
+├── heartBalanced/         # Balanced heart disease dataset
+└── heartUnique/           # Unique heart disease dataset
+```
 
-To use DiagnoseMe, follow these simple steps:
+## Installation
 
-1. **Download DiagnoseMe**:
-   - Download the DiagnoseMe project files to your local machine. You can obtain the project files by either cloning the repository or downloading the ZIP archive from the project's GitHub page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JugaadSandhu/DiagnoseMe.git
+   cd DiagnoseMe
+   ```
 
-2. **Installation**:
-   - No additional installation is required. Simply unzip the downloaded project files to a location of your choice.
-
-3. **Usage**:
-   - To diagnose heart complications or diabetes using DiagnoseMe, follow the instructions below.
+2. Ensure Python 3 is installed:
+   ```bash
+   python3 --version
+   ```
 
 ## Usage
 
-1. **Navigating to the DiagnoseMe Directory**:
-   - Open your terminal or command prompt.
+### Running the Diagnostic Tool
 
-   - Use the `cd` command to navigate to the directory where you placed the DiagnoseMe project files. For example:
-     ```
-     cd /path/to/DiagnoseMe
-     ```
+1. Navigate to the project directory:
+   ```bash
+   cd /path/to/DiagnoseMe
+   ```
 
-2. **Executing DiagnoseMe**:
-   - Run the `naiveBayes.py` script by entering the following command:
-     ```
-     python naiveBayes.py
-     ```
+2. Run the main script:
+   ```bash
+   python3 naiveBayes.py
+   ```
 
-3. **Answering Questions**:
-   - Once you execute the script, you will be presented with a series of questions related to your health.
+3. Choose your diagnosis type:
+   - Type `heart` for heart disease prediction
+   - Type `diabetes` for diabetes prediction
 
-   - Answer these questions as accurately as possible.
+4. Answer the prompted questions accurately
 
-4. **Diagnosis Results**:
-   - After you have answered all the questions, DiagnoseMe will process the data and provide you with preliminary results regarding your likelihood of having heart complications or diabetes.
+5. Review the results:
+   - The model will display a prediction (Yes/No)
+   - Probability values for each outcome will be shown
 
-5. **Seek Medical Advice**:
-   - Please note that DiagnoseMe is not a substitute for professional medical advice. If the results suggest a potential health issue, it is important to consult a healthcare professional for a proper diagnosis and guidance.
+### Example: Heart Disease Diagnosis
 
-## Important Notes
+When you select `heart`, you'll be asked questions about:
+- Smoking history
+- Alcohol consumption
+- Stroke history
+- Physical mobility
+- Demographics (age, sex, race)
+- Existing conditions (diabetes, asthma, kidney disease)
+- Physical activity levels
+- General health status
 
-- DiagnoseMe provides initial insights based on the provided answers, but it does not replace a medical evaluation by a qualified healthcare practitioner.
+### Example: Diabetes Diagnosis
 
-- The questions in DiagnoseMe are designed to give you a rough estimate of your health status. Always consult a medical professional for a comprehensive evaluation.
+When you select `diabetes`, you'll be asked about:
+- Blood pressure and cholesterol
+- Smoking and stroke history
+- Heart disease history
+- Physical activity and diet
+- Alcohol consumption
+- Healthcare access
+- Mental and physical health
+- Demographics and socioeconomic factors
 
-## Support and Contributions
+## How It Works
 
-If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the DiagnoseMe GitHub repository. Contributions to the project are also welcome.
+The system implements a **Naive Bayes classifier** that:
 
-GitHub Repository: [DiagnoseMe](https://github.com/your-username/diagnoseme)
+1. **Training Phase**:
+   - Reads training data from CSV files
+   - Calculates prior probabilities P(Y=y) for each class
+   - Computes conditional probabilities P(Xi=xi|Y=y) for each feature
 
-Thank you for using DiagnoseMe! We hope that it can help raise awareness of potential health issues and encourage users to seek appropriate medical attention when needed.
+2. **Classification Phase**:
+   - Collects user input for all features
+   - Applies Bayes' theorem: P(Y=y|X=x) ∝ P(Y=y) × ∏P(Xi=xi|Y=y)
+   - Returns the class with maximum posterior probability
+
+3. **Output**:
+   - Predicted class (Yes/No for disease presence)
+   - Raw probability scores for transparency
+
+## Data Splitting
+
+To retrain the model with new data:
+
+```bash
+python3 splitData.py
+```
+
+This splits `data.csv` into training (80%) and testing (20%) sets randomly.
+
+## Batch Testing
+
+Run all models on their test datasets:
+
+```bash
+bash runAll.bash
+```
+
+This executes the classifier on all four datasets (diabetes, heart, heartBalanced, heartUnique) and displays results.
+
+## Model Performance
+
+The accuracy of predictions depends on:
+- Quality and size of training data
+- Feature relevance and independence (Naive Bayes assumption)
+- User input accuracy
+
+The model provides probability scores to help users understand prediction confidence.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+## Limitations
+
+- **Educational Tool**: Not validated for clinical use
+- **Naive Bayes Assumption**: Assumes feature independence, which may not hold in medical data
+- **Data Quality**: Predictions are only as good as the training data
+- **No Medical Validation**: Results have not been clinically validated
+
+## License
 
 This project is open source and available for educational and research purposes.
 
-Remember: Your health is your wealth, and early detection can make all the difference.
+## Disclaimer
 
-We are committed to continuously improving the accuracy and reliability of our predictions through ongoing research and development.
+**This software is provided for educational purposes only.** It is not intended to diagnose, treat, cure, or prevent any disease. The predictions made by this tool should not be considered medical advice. Always seek the guidance of qualified healthcare professionals with any questions you may have regarding a medical condition.
 
-Together, we can build a more informed and healthier community through the power of machine learning.
+## Acknowledgments
 
-Our goal is to make preventive healthcare insights available to everyone, regardless of their background or resources.
-
-By combining machine learning with healthcare data, we strive to democratize access to preliminary health assessments.
-
-Join us in our mission to bridge the gap between advanced technology and everyday health awareness.
-
-Every contribution to this project helps advance the future of accessible healthcare technology.
-
-Your feedback and suggestions are invaluable in helping us refine and enhance this diagnostic tool.
-
-We believe in the power of open-source collaboration to drive innovation in healthcare technology.
+Built with Python using the Naive Bayes classification algorithm. Training data is based on real-world health datasets to demonstrate machine learning applications in healthcare.
 
 ---
-*This project is for educational purposes only and should not be used as a medical diagnostic tool.*
+
+**Your health is important. If you have concerns, please consult a healthcare professional.**
